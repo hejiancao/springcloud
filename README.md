@@ -1,6 +1,6 @@
 # springcloud练习
 
-## 添加注册中心
+## 第一篇：添加注册中心
 [参考链接](https://blog.csdn.net/forezp/article/details/81040925)
 >1.先创建父工程，使用IDEA，new -- project --spring initializr -- packaging为pom<br>
 >2.创建eurake-server,new -- module -- spring initializr -- cloud discovery -- eurake server -- packaging为jar -- parent选择上一级center -- 并在上一级pom.xml中手动添加modules<br>
@@ -46,9 +46,9 @@ eureka:
 ```
 >9.启动eurake-client，打开http:localhost:8761,发现有一台注册<br>
 
-## rest + ribbon的使用
+## 第二篇：rest + ribbon的使用
 [rest + ribbon的使用](https://blog.csdn.net/forezp/article/details/81040946)
-## idea启动多个实例
-[idea启动多个实例](https://blog.csdn.net/forezp/article/details/76408139)
-## feign的使用
+>idea启动多个实例
+>[idea启动多个实例](https://blog.csdn.net/forezp/article/details/76408139)
+## 第三篇：feign的使用
 [参考链接](https://blog.csdn.net/forezp/article/details/81040965)
