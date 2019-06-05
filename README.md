@@ -51,3 +51,5 @@ eureka:
 [idea启动多个实例](https://blog.csdn.net/forezp/article/details/76408139)
 ## 第三篇：feign的使用
 [参考链接](https://blog.csdn.net/forezp/article/details/81040965)
+## 第四篇：断路器hystrix的使用
+[参考链接](https://blog.csdn.net/forezp/article/details/81040990)
