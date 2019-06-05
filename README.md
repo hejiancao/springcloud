@@ -1,6 +1,6 @@
 # springcloud
 
-#### 添加注册中心
+## 添加注册中心
 [参考链接](https://blog.csdn.net/forezp/article/details/81040925)
 >1.先创建父工程，使用IDEA，new -- project --spring initializr -- packaging为pom<br>
 >2.创建eurake-server,new -- module -- spring initializr -- cloud discovery -- eurake server -- packaging为jar -- parent选择上一级center -- 并在上一级pom.xml中手动添加modules<br>
