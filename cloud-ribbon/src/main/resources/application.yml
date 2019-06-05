@@ -1,9 +1,9 @@
 server:
-  port: 8762
+  port: 8764
 
 spring:
   application:
-    name: eurake-client
+    name: cloud-ribbon
 
 eureka:
   client:
