@@ -49,6 +49,6 @@ eureka:
 ## 第二篇：rest + ribbon的使用
 [rest + ribbon的使用](https://blog.csdn.net/forezp/article/details/81040946)
 >idea启动多个实例
->[idea启动多个实例](https://blog.csdn.net/forezp/article/details/76408139)
+>[参考链接](https://blog.csdn.net/forezp/article/details/76408139)
 ## 第三篇：feign的使用
 [参考链接](https://blog.csdn.net/forezp/article/details/81040965)
