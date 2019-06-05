@@ -8,3 +8,10 @@ spring:
   application:
     name: cloud-feign
 
+# 在feign中使用断路器
+feign:
+  hystrix:
+    enabled: true
+
+
+
