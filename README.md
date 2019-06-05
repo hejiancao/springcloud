@@ -46,13 +46,13 @@ eureka:
 ```
 >9.启动eurake-client，打开http:localhost:8761,发现有一台注册<br>
 
-## 第二篇：rest + ribbon的使用
+## 第二篇：rest+ribbon的方式进行接口调用
 [参考链接](https://blog.csdn.net/forezp/article/details/81040946)<br>
 [idea启动多个实例](https://blog.csdn.net/forezp/article/details/76408139)
-## 第三篇：feign的使用
+## 第三篇：feign的方式进行接口调用
 [参考链接](https://blog.csdn.net/forezp/article/details/81040965)
-## 第四篇：断路器hystrix的使用
+## 第四篇：hystrix断路器
 [参考链接](https://blog.csdn.net/forezp/article/details/81040990)
 ## 第五篇：zull路由网关
->简介：Zuul的主要功能是路由转发和过滤器。路由功能是微服务的一部分，比如／api/user转发到到user服务，/api/shop转发到到shop服务
+>简介：Zuul的主要功能是路由转发和过滤器。路由功能是微服务的一部分，比如／api/user转发到到user服务，/api/shop转发到到shop服务<br>
 [参考链接](https://blog.csdn.net/forezp/article/details/81041012)
