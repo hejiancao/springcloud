@@ -53,3 +53,6 @@ eureka:
 [参考链接](https://blog.csdn.net/forezp/article/details/81040965)
 ## 第四篇：断路器hystrix的使用
 [参考链接](https://blog.csdn.net/forezp/article/details/81040990)
+## 第五篇：zull路由网关
+>简介：Zuul的主要功能是路由转发和过滤器。路由功能是微服务的一部分，比如／api/user转发到到user服务，/api/shop转发到到shop服务
+[参考链接](https://blog.csdn.net/forezp/article/details/81041012)

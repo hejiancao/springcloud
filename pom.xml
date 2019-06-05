@@ -22,6 +22,7 @@
         <module>eureka-client</module>
         <module>cloud-ribbon</module>
         <module>cloud-feign</module>
+        <module>cloud-zuul</module>
     </modules>
 
     <properties>
