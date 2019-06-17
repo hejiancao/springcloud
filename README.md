@@ -1,4 +1,6 @@
 # springcloud练习
+本文是通过学习方志朋老师的关于SpringCloud博客进行的个人总结<br>
+以下附上方志朋老师的博客地址：[点我进入](https://blog.csdn.net/forezp/article/details/70148833)
 
 ## [springcloud各版本区别介绍](https://blog.csdn.net/chen497147884/article/details/79896141)
 
@@ -98,7 +100,28 @@ https://blog.csdn.net/forezp/article/details/81041045
 ## 第八篇：消息总线(Spring Cloud Bus)
 https://blog.csdn.net/forezp/article/details/81041062
 >简介：Spring Cloud Bus 将分布式的节点用轻量的消息代理连接起来。它可以用于广播配置文件的更改或者服务之间的通讯，也可以用于监控。本文要讲述的是用Spring Cloud Bus实现通知微服务架构的配置文件的更改
-## 第九篇：
+## 第九篇：服务链路追踪(Spring Cloud Sleuth)
+https://blog.csdn.net/forezp/article/details/81041078
+>简介：这篇文章主要讲述服务追踪组件zipkin，Spring Cloud Sleuth集成了zipkin组件,Spring Cloud Sleuth 主要功能就是在分布式系统中提供追踪解决方案，并且兼容支持了 zipkin，你只需要在pom文件中引入相应的依赖即可。
+微服务架构上通过业务来划分服务的，通过REST调用，对外暴露的一个接口，可能需要很多个服务协同才能完成这个接口功能，如果链路上任何一个服务出现问题或者网络超时，都会形成导致接口调用失败。随着业务的不断扩张，服务之间互相调用会越来越复杂。
+随着服务的越来越多，对调用链的分析会越来越复杂。
+
+作用：查看各服务之间调用关系，当其中一个服务出现问题时，方便定位问题<br>
+
+1.下载[zipkin-jar](https://dl.bintray.com/openzipkin/maven/io/zipkin/java/zipkin-server/)包，然后启动 java -jar zipkin-server-2.10.2-exec.jar, 访问http://localhost:9411/zipkin/<br>
+2.为了追踪各服务，需要给微服务添加依赖
+```
+<dependency>
+    <groupId>org.springframework.cloud</groupId>
+    <artifactId>spring-cloud-starter-zipkin</artifactId>
+</dependency>
+```
+3.配置文件修改
+```
+#指定ipkin server的地址
+spring.zipkin.base-url=http://localhost:9411
+
+```
 ## 第十篇：
 ## 第十一篇：
 ## 第十二篇：
