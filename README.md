@@ -89,3 +89,18 @@ zuul:
 ### 过滤功能
 略<br>
 
+## 第六篇：分布式配置中心(Spring Cloud Config)
+https://blog.csdn.net/forezp/article/details/81041028
+>简介：在分布式系统中，由于服务数量巨多，为了方便服务配置文件统一管理，实时更新，所以需要分布式配置中心组件。在Spring Cloud中，有分布式配置中心组件spring cloud config ，它支持配置服务放在配置服务的内存中（即本地），也支持放在远程Git仓库中。在spring cloud config 组件中，分两个角色，一是config server，二是config client。
+
+## 第七篇：高可用的分布式配置中心(Spring Cloud Config)
+https://blog.csdn.net/forezp/article/details/81041045
+## 第八篇：消息总线(Spring Cloud Bus)
+https://blog.csdn.net/forezp/article/details/81041062
+>简介：Spring Cloud Bus 将分布式的节点用轻量的消息代理连接起来。它可以用于广播配置文件的更改或者服务之间的通讯，也可以用于监控。本文要讲述的是用Spring Cloud Bus实现通知微服务架构的配置文件的更改
+## 第九篇：
+## 第十篇：
+## 第十一篇：
+## 第十二篇：
+## 第十三篇：
+
