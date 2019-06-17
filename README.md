@@ -122,6 +122,7 @@ https://blog.csdn.net/forezp/article/details/81041078
 spring.zipkin.base-url=http://localhost:9411
 
 ```
+4.接口调用之后，继续访问http://localhost:9411/zipkin/
 ## 第十篇：
 ## 第十一篇：
 ## 第十二篇：
