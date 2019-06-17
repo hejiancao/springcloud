@@ -6,7 +6,7 @@
 		<groupId>cn.sen</groupId>
 		<artifactId>center</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath>../pom.xml</relativePath>
 	</parent>
 	<groupId>cn.sen</groupId>
 	<artifactId>cloud-zuul</artifactId>
