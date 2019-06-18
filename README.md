@@ -4,7 +4,7 @@
 
 ## [springcloud各版本区别介绍](https://blog.csdn.net/chen497147884/article/details/79896141)
 
-## 第一篇：添加注册中心
+## 第一篇：服务注册与发现
 https://blog.csdn.net/forezp/article/details/81040925
 >1.先创建父工程，使用IDEA，new -- project --spring initializr -- packaging为pom<br>
 >2.创建eurake-server,new -- module -- spring initializr -- cloud discovery -- eurake server -- packaging为jar -- parent选择上一级center -- 并在上一级pom.xml中手动添加modules<br>
@@ -123,7 +123,11 @@ spring.zipkin.base-url=http://localhost:9411
 
 ```
 4.接口调用之后，继续访问http://localhost:9411/zipkin/
-## 第十篇：
+## 第十篇：高可用的服务注册中心
+https://blog.csdn.net/forezp/article/details/81041101
+>简介：第一篇介绍了服务注册与发现，其中服务注册中心Eureka Server，是一个实例，当成千上万个服务向它注册的时候，它的负载是非常高的，这在生产环境上是不太合适的，这篇文章主要介绍怎么将Eureka Server集群化。
+
+作用：注册中心集群化，实现高可用
 ## 第十一篇：
 ## 第十二篇：
 ## 第十三篇：
