@@ -138,5 +138,13 @@ https://blog.csdn.net/forezp/article/details/81041125
 >简介：看单个的Hystrix Dashboard的数据并没有什么多大的价值，要想看这个系统的Hystrix Dashboard数据就需要用到Hystrix Turbine。Hystrix Turbine将每个服务Hystrix Dashboard数据进行了整合
 
 作用：将每个服务Hystrix Dashboard数据进行了整合
-## 第十三篇：
+## 第十三篇：Spring Cloud Gateway初体验
+https://blog.csdn.net/forezp/article/details/83792388
+>简介：Spring Cloud Gateway是Spring Cloud官方推出的第二代网关框架，取代Zuul网关。网关作为流量的，在微服务系统中有着非常作用，网关常见的功能有路由转发、权限校验、限流控制等作用
+
+作用：第二代网关框架，取代Zull网关<br>
+注意事项：<br>
+1.注意移除依赖spring-boot-starter-web，不然启动不了<br>
+2.注意springboot和springcloud版本兼容问题，我的springboot2.1.5.RELEASE,springcloud用G版本，用F版本会报错<br>
+
 
