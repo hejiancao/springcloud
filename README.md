@@ -168,9 +168,17 @@ https://blog.csdn.net/forezp/article/details/83792388
 1.注意移除依赖spring-boot-starter-web，不然启动不了<br>
 2.注意springboot和springcloud版本兼容问题，我的springboot2.1.5.RELEASE,springcloud用G版本，用F版本会报错<br>
 
-## 第十四篇：Spring Cloud Gateway 之Predict篇
+## 第十四篇：Spring Cloud Gateway之Predict篇
 https://blog.csdn.net/forezp/article/details/84926662
 >简介：在下图中，有很多类型的Predicate,比如说时间类型的Predicated（AfterRoutePredicateFactory BeforeRoutePredicateFactory BetweenRoutePredicateFactory），当只有满足特定时间要求的请求会进入到此predicate中，并交由router处理；cookie类型的CookieRoutePredicateFactory，指定的cookie满足正则匹配，才会进入此router;以及host、method、path、querparam、remoteaddr类型的predicate，每一种predicate都会对当前的客户端请求进行判断，是否满足当前的要求，如果满足则交给当前请求处理。如果有很多个Predicate，并且一个请求满足多个Predicate，则按照配置的顺序第一个生效。
 
 ![predict](https://github.com/hejiancao/springcloud/blob/master/pics/20190601010743550.png)
+作用：路由
 
+## 第十五篇：Spring Cloud Gateway之filter篇
+https://blog.csdn.net/forezp/article/details/85057268<br>
+作用：过滤
+## 第十六篇：Spring Cloud Gateway
+>简介：
+## 第十七篇：Spring Cloud Gateway
+>简介：
