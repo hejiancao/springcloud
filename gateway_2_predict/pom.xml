@@ -9,21 +9,17 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.example</groupId>
-	<artifactId>gateway_1</artifactId>
+	<artifactId>gateway_2_predict</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>gateway_1</name>
+	<name>gateway_2_predict</name>
 	<description>Demo project for Spring Boot</description>
-    <packaging>jar</packaging>
+	<packaging>jar</packaging>
 
 	<properties>
 		<java.version>1.8</java.version>
 	</properties>
 
 	<dependencies>
-		<!--<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
-		</dependency>-->
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
