@@ -133,6 +133,10 @@ https://blog.csdn.net/forezp/article/details/81041113
 >简介：在微服务架构中为例保证程序的可用性，防止程序出错导致网络阻塞，出现了断路器模型。断路器的状况反应了一个程序的可用性和健壮性，它是一个重要指标。Hystrix Dashboard是作为断路器状态的一个组件，提供了数据监控和友好的图形化界面。
 
 作用：为断路器提供友好图形化界面
-## 第十二篇：
+## 第十二篇：断路器聚合监控(Hystrix Turbine)
+https://blog.csdn.net/forezp/article/details/81041125
+>简介：看单个的Hystrix Dashboard的数据并没有什么多大的价值，要想看这个系统的Hystrix Dashboard数据就需要用到Hystrix Turbine。Hystrix Turbine将每个服务Hystrix Dashboard数据进行了整合
+
+作用：将每个服务Hystrix Dashboard数据进行了整合
 ## 第十三篇：
 
